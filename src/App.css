@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.hero-section {
+  width: 100%;
+  height: 750px;
+  /* display: flex;
+  flex-wrap: nowrap; */
+  /* justify-content: space-between; */
+  background-image: Linear-gradient(to right, rgb(0, 0, 0, 2), rgba(0, 0, 0, 0)),
+    url("./src/assets/backpic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.feature-section {
+  width: 100%;
+  height: 900px;
+  background-color: black;
+  margin: 0px;
+}
+
+.navbar {
+  height: max-content;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-top: 30px; */
+}
+
+.navlink {
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.navlink.home {
+  margin-right: 15px;
+}
+
+.navlink.services {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navlink.support {
+  margin-left: 15px;
+}
+
+.navlink:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+  background: Linear-gradient(to bottom, #267ecf, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bolder;
+
+  /* background-image: url("./src/assets/V.png"); */
+}
+
+.grid {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#card {
+  background-color: rgb(55, 55, 55);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
