@@ -12,7 +12,7 @@ const Card = (props) => {
     paddingRight: "30px",
     marginTop: "10px",
     marginBottom: "10px",
-    height: "400px",
+    height: "350px",
     width: "500px",
     
   }
@@ -24,7 +24,7 @@ const Card = (props) => {
     borderRadius: "50px",
     paddingLeft: "30px",
     paddingRight: "30px",
-    height: "820px",
+    height: "700px",
     width: "400px",
     
   }

@@ -1,5 +1,7 @@
 import Card from "./card";
 
+import ListItem from "./listItem";
+
 const FeatureSection = () => {
   return (
     <>
@@ -40,7 +42,7 @@ const FeatureSection = () => {
               imageUrl="./src/assets/Card1.png"
               isSmall={true}
             />
-            <Card 
+            <Card
               title="Tire Services:"
               content="Grip the road with confidence. We’ve got tires and alignments covered."
               extra="100% Satisfaction Guaranteed!"
@@ -55,6 +57,35 @@ const FeatureSection = () => {
             imageUrl="./src/assets/Card3.png"
             isSmall={false}
           />
+        </div>
+        <div style={{ display: "flex", flexDirection: "row", marginInline: "auto", marginTop: "7%", paddingLeft: "11%"}}>
+          <div style={{ display: "flex", flexDirection: "column", marginTop: "5%"}}>
+            <p
+              style={{
+                border: "1px solid white",
+                borderRadius: "50px",
+                padding: "10px",
+                marginBottom: "2%",
+                width: "fit-content",
+              }}
+              id="text"
+            >
+              over 1500+ parts replaced
+            </p>
+            <h1 style={{ fontSize: "50px", marginTop: "2%", marginBottom: "2%"}} id="text">
+              Offering you top-notch maintenance
+            </h1>
+            <div style={{ marginTop: "2%"}}>
+              <ListItem number="60%" text="Lower than standard repair costs" />
+              <ListItem
+                number="x2"
+                text="More likely to a free maintenance check"
+              />
+              <ListItem number="150+" text="Replaceable high quality parts " />
+            </div>
+          </div>
+          <img className= "car" src="./src/assets/Car.png" alt="car" />
+          <div></div>
         </div>
       </section>
     </>
